@@ -1,0 +1,34 @@
+@charset "utf-8";
+body {
+ background-color: #e0c0c7;
+ color: #bd1550;
+ font-family: 'Shadows Into Light';
+}
+h1 {
+ background-color: #e0c0c7;
+ color: #bd1550;
+ line-height: 200%;
+ font-family: 'Shadows Into Light';
+ text-shadow: 3px 3px 5px #cccccc;
+}
+h2 {
+ background-color: #e0c0c7;
+ font-family: 'Shadows Into Light';
+ text-align: center;
+}
+p {
+ font-size: .90em;
+ text-indent: 3em;
+ background-color: #e47dad;
+}
+p.fundo {
+ background-color: #77f9a7;
+}
+
+.italico{
+font-style: italic    
+}
+
+.negrito{
+font-size: medium;
+}
