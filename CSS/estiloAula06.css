@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+body {
+    background-color: #aae18a;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif, Verdana, sans-serif;
+   }
+
+img {
+
+    height: 240px;
+    width: 320px;
+}
+     
+    
+figure{
+        width: 320px;
+        padding: 5px;
+        border: 15x 15px 15px 15px 15px 15px 15px 15px 15px 15px #ff00cc;
+        margin: 800px 800px 800px 800px 800px 800px 800px 800px 800px 800px;
+  }
+
+
