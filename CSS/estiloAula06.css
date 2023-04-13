@@ -16,8 +16,10 @@ img {
 figure{
         width: 320px;
         padding: 5px;
-        border: 15x 15px 15px 15px 15px 15px 15px 15px 15px 15px #ff00cc;
         margin: 800px 800px 800px 800px 800px 800px 800px 800px 800px 800px;
   }
 
 
+div{
+    border: 1px solid #ff00cc;
+}
