@@ -1,0 +1,76 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+.corContainer2 {
+  background: #a4f479;
+  padding: 15px;
+  text-align: center;
+}
+
+body {
+  background-image: url("gelo.avif");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #489c79;
+  line-height: 40pt;
+}
+
+.titulo {
+  text-align: center;
+  margin-top: 0.91em;
+}
+
+#container {
+  margin: 2em 2em;
+  text-align: center;
+  padding: 0 20px;
+}
+#container header {
+  font-size: 50px;
+  line-height: 1.2em;
+}
+
+.btn1 {
+  font-size: 18px;
+  text-decoration: none;
+  color: #2cc2dc;
+  border: #61d4b0 1px solid;
+  padding: .80ch 0.25ch;
+  border-radius: 10px;
+  margin: 20px;
+}
+.btn {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  border: #20b8d3 1px solid;
+  padding: .85em 0.30em;
+  border-radius: 10px;
+  margin: 30px 30px;
+}
+
+h1{
+    line-height: 20pt;
+    padding: .50ch 0.25ch;
+
+}
+
+section{
+font-size: 18px;
+
+}
+footer {
+  font-size: 10mm;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.pezinho {
+  background-color: #489c79;
+  align-items: end;
+  margin-top: 50em;
+}
