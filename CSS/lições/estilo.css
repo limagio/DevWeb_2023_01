@@ -1,0 +1,17 @@
+@charset "utf-8";
+body {
+  background-color: #b3e9f3;
+  text-shadow: 3px 3px #48789f;
+  color: #555555;
+  font-size: 1rem;
+  font-family: "Roboto Mono", monospace;
+  margin-top: 700px;
+}
+
+.titulo1 {
+  color: #6590d1;
+}
+
+.imagem {
+  padding: 500px x 300px;
+  }
