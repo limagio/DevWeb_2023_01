@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.container {
+  display: flex;
+  align-items: baseline;
+  border: 1px #df0000 solid;
+  padding: 10px;
+}
+.container div {
+  display: flex;
+  align-items: baseline;
+  border: 1px #991d46 solid;
+  padding: 10px;
+}
+
+.Tema1 {
+  flex: 1;
+  order: 1;
+  align-self: flex-end;
+}
+
+.tema2 {
+  flex: 3;
+  order: 4;
+}
+
+.tema3 {
+  flex: 2;
+  order: 3;
+}
+
+.tema4 {
+  flex: 1;
+  order: 4;
+}
