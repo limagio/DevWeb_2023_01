@@ -1,34 +1,33 @@
 @charset "utf-8";
 body {
- background-color: #e0c0c7;
- color: #bd1550;
+ background-color: #fd2d5a;
+ color: #000000;
  font-family: 'Shadows Into Light';
+ font-size: 1em;
 }
 h1 {
- background-color: #e0c0c7;
- color: #bd1550;
+ background-color: #00ff40;
  line-height: 200%;
  font-family: 'Shadows Into Light';
  text-shadow: 3px 3px 5px #cccccc;
 }
 h2 {
- background-color: #e0c0c7;
+ background-color: #00ff40;
  font-family: 'Shadows Into Light';
  text-align: center;
 }
-p {
- font-size: .90em;
- text-indent: 3em;
- background-color: #e47dad;
-}
-p.fundo {
- background-color: #77f9a7;
-}
-
+.rosa {
+    text-indent: 3em;
+    background-color: #ee5173;
+   }
 .italico{
-font-style: italic    
+font-style: italic;
 }
 
+.cor{
+color: rgb(0, 0, 0);
+}
 .negrito{
 font-size: medium;
+font-weight: bold;
 }

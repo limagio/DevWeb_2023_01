@@ -1,0 +1,54 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+font-size: 3em;
+margin-bottom: 8px;
+padding-top: 8px;
+box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/ceu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img {
+height: 500px;
+width: 800px;
+margin: 3px;
+padding: 3px;
+}
+
+figure {
+    width: 1000px;
+    padding: 5px;
+    border: 4px solid #ff00c8;
+    text-align: center;
+}
+
+.h2 {
+    background-color: #ff00bf;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    line-height: 200%;
+    font-family: 'Georgia', “Times New Roman”, serif;
+    padding: 0.5em;
+}
+
+.p{
+    font-size: 4em;
+}
+
+footer{
+    color: #333333;
+ font-size: 2em;
+ font-weight: bold;
+ font-family: 'Georgia'
+}
+
