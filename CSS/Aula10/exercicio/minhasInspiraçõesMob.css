@@ -1,0 +1,64 @@
+@charset "utf-8";
+@media(max-width:414px) {
+    .col {
+    width: 100%;
+    }
+   }
+    *{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    body {
+    background-color: aquamarine;
+    font-size: 16px;
+    }
+    .pai {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    .Carolina, .Jorge, .Emicida{
+      margin-bottom: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    width: 100px;
+    height: 100px;
+  }
+
+.pai {
+    border: 2px solid #000;
+    height: 400px;
+}
+
+.Carolina
+ {
+    float: left;
+}
+
+.Jorge
+{
+    float: right;
+
+}
+
+.Emicida
+{
+    float: left;
+}
