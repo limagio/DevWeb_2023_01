@@ -20,10 +20,10 @@ console.table(turma[1][1])
 //primeiro olha para a linha e depois para a posição
 
  const matrix=[
-    Linha 1 ['Banana', 'Maçã','Pêra'],
-    posição       0       1       2  
-    Linha 2 ['Laranja', true, 1]
-    Linha 3 [null, 'Uva', -350]
+    ['Banana', 'Maçã','Pêra'],
+    //posição       0       1       2  
+    ['Laranja', true, 1],
+    [null, 'Uva', -350]
 ];
 
 const array1 = ["Maçã", "Kiwi", "Pera", "Tomate"]
