@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous
+">
+    <title> </title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.m
+in.js" integrity="sha384-
+p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+<section class="container">
+    <form action="#">
+        <label class="form-label">Nome Completo</label>
+        <input type="text" class="form-control" placeholder="Adicione o Nome">
+        <label class="form-label">Profissão</label>
+        <input type="text" class="form-control form-control-sm" placeholder="Adicione o Nome">
+        <label class="form-label">E-mail</label>
+        <input type="email" class="form-control form-control-lg" placeholder="Adicione o Email">
+        <label>Mensagem</label>
+        <textarea class="form-control" placeholder="Adicione uma Mensagem"></textarea>
+        <hr>
+        <label>Formação</label>
+        <select name="" id="" class="form-control">
+            <option value="fundamental">Ensino fundamental</option>
+            <option value="medio">Ensino médio</option>
+            <option value="superior">Ensino superior</option>
+            <option value="superior">Outro</option>
+        </select>
+    </form>
+    <br>
+    <hr>
+    <label for="exampleDataList" class="form-label">Cidade</label>
+    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Digite uma cidade...">
+    <datalist id="datalistOptions">
+        <option value="Belo Horizonte"></option>
+        <option value="São Paulo"></option>
+        <option value="Santos"></option>
+        <option value="Porto Alegre"></option>
+        <option value="Recife"></option>
+        <option value="Outra"></option>
+    </datalist>
+    <br>
+    <hr>
+    <label class="form-label">Enviar Arquivo</label>
+    <input type="file">
+    <br>
+    <span class="form-text">
+        Apenas arquivos png e jpg.
+    </span>
+    <br>
+    <hr>
+    <label for="exampleColorInput" class="form-label">Seletor de Cores</label>
+    <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#021BFC"
+        title="Escolha a sua Cor">
+    <br>
+    <hr>
+    <section class="container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Primeiro Nome</th>
+                    <th scope="col">Segundo Nome</th>
+                    <th scope="col">Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>34</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table class="table table-bordered table-hover table-sm">
+            <caption>Tabela 01: Dinheiro guardado mensalmente</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Mês</th>
+                    <th scope="col">Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-primary">
+                    <td>Janeiro</td>
+                    <td>R$100,00</td>
+                </tr>
+                <tr class="table-success">
+                    <td>Fevereiro</td>
+                    <td>R$50,00</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Março</td>
+                    <td>R$25,00</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>Abril</td>
+                    <td>R$40,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <section class="container">
+            <ul class="list-group">
+                <li class="list-group-item active" aria-current="true">Item Um</li>
+                <li class="list-group-item">Item Dois</li>
+                <li class="list-group-item">Item Três</li>
+                <li class="list-group-item disabled" aria-disabled="true">Item Quatro</li>
+            </ul>
+            <br>
+            <hr>
+        </section>
+    </section>
+    <div class="card" style="width: 18rem;">
+        <h5 class="card-header">Cabeçalho Exemplo 02</h5>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Um item</li>
+            <li class="list-group-item">Um segundo item</li>
+            <li class="list-group-item">Um terceiro item</li>
+        </ul>
+    </div>
+    <br>
+    <hr>
+    <div class="card" style="width: 18rem;">
+        <img src="./floreszinhas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Título do Card</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, soluta.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Um item</li>
+            <li class="list-group-item">Um segundo item</li>
+            <li class="list-group-item">Um terceiro item</li>
+        </ul>
+        <div class="card-body">
+            <a href="#" class="card-link">Um link do Card</a>
+            <a href="#" class="card-link">Outro link</a>
+        </div>
+    </div>
+    <br>
+    <hr>
+    </form>
+    <section class="container">
+        <button class="btn btn-outline-secondary">Botão Um</button>
+        <a href="#" class="btn btn-outline-secondary" role="button">Botão Dois</a>
+        <input type="submit" class="btn btn-outline-secondary" value="Enviar">
+        <br><br>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn btn-link">Link</button>
+        <br><br>
+        <button class="btn btn-outline-secondary btn-lg">Botão Um</button>
+        <button class="btn btn-primary btn-sm">Primary</button>
+        <button class="btn btn-secondary" disabled="disabled">Secondary</button>
+        <br><br>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light">Light</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+        <hr>
+    </section>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.m
+in.js" integrity="sha384-
+p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+
+</html>

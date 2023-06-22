@@ -1,16 +1,16 @@
-// while
 let contador = 1;
 while (contador <= 50) {
-console.log(`Valor = ${contador}`);
-contador++;
+  console.log(contador);
+  contador++;
 }
-
-// do while
-console.clear();
-let i = ,
-text = '';
+let contador2 = 10;
 do {
-text += `O número é ${i}\n`;
-i++;
-} while (i < );
-console.log(text);
+  console.log(contador2);
+  contador2--;
+} while (contador2 >= 0);
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
